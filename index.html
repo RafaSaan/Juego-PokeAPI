@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Pokemon Game</title>
+  </head>
+
+  <body>
+    <div class="game">
+      <!-- <h1 class="title">API POKEMON</h1> -->
+
+      <div class="game__screen">
+        <div class="game__character"></div>
+        <!-- <div class="game__obstacle"></div> -->
+        <img src="img/yoda50x50.svg" alt="yoda" class="game__obstacle" />
+      </div>
+      <div class="game__controls">
+        <form action="" class="search">
+          <label for="search-pokemon"
+            >Ingresa el nombre del pokemon con el que quieras jugar</label
+          >
+          <input
+            type="text"
+            class="search-pokemon"
+            autocomplete="off"
+            placeholder="nombre del pokemon"
+          />
+          <button class="btn-search">Buscar</button>
+        </form>
+        <div class="control-jump">
+          <button class="btn-jump" onclick="jump()">jump</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
