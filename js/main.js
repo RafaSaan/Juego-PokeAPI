@@ -59,3 +59,7 @@ const CollisionCharacter = () => {
   }, 30);
 };
 CollisionCharacter();
+
+window.alert(
+  "Si estás en un dispositivo móvil, recuerda escribir el nombre en minúsculas o  te arrojará un error :)"
+);
